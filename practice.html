@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    //object Method
+    
+    <script>// Create an Object
+        // const person = {
+        //   firstName: "John",
+        //   lastName: "Doe",
+        //   id: 5566,
+        // };
+        
+        // // Add a Method
+        // person.name = function() {
+        //   return this.firstName + " " + this.lastName;
+        // };
+        
+        // // Display Object Data in the Console
+        // console.log("My father is " + person.name());
+        //
+//         const person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   id: 5566,
+//   fullName: function () {
+//     return this.firstName + " " + this.lastName;
+//   },
+// };
+
+// console.log(person.fullName()); // Output: John Doe
+// Add a Method
+// const person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   id: 5566,
+//   fullName: function () {
+//     return this.firstName + " " + this.lastName;
+//   },
+// };
+
+// Naya method `name` add kiya
+// person.name = function () {
+//   return (this.firstName + " " + this.lastName).toUpperCase();
+// };
+
+// // Console `name` method ka result
+// console.log(person.name()); // Output: JOHN DOE
+
+// //   firstName: "John",
+// Constructor function
+function Person(firstName, lastName, age) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.age = age;
+}
+
+// Object banate hain
+let person1 = new Person("John", "Doe", 30);
+let person2 = new Person("Jane", "Smith", 25);
+
+console.log(person1.firstName); // Output: John
+console.log(person2.age); // Output: 25
+
+
+
+
+
+        </script>
+    
+</body>
+</html>
